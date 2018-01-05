@@ -2520,22 +2520,22 @@ namespace Inworldz.Joke.Types
 				ParamNames = new string[] {"id"},
 				TableIndex = 358
 			}},
-			{"iwMakeNotecard", new FunctionSig {
-				FunctionName =  "iwMakeNotecard",
+			{"wcMakeNotecard", new FunctionSig {
+				FunctionName =  "wcMakeNotecard",
 				ReturnType = VarType.Void,
 				ParamTypes = new VarType[] {VarType.String, VarType.List},
 				ParamNames = new string[] {"name", "data"},
 				TableIndex = 359
 			}},
-			{"iwAvatarName2Key", new FunctionSig {
-				FunctionName =  "iwAvatarName2Key",
+			{"wcAvatarName2Key", new FunctionSig {
+				FunctionName =  "wcAvatarName2Key",
 				ReturnType = VarType.Key,
 				ParamTypes = new VarType[] {VarType.String, VarType.String},
 				ParamNames = new string[] {"firstName", "lastName"},
 				TableIndex = 360
 			}},
-            {"iwLinkTargetOmega", new FunctionSig {
-				FunctionName =  "iwLinkTargetOmega",
+            {"wcLinkTargetOmega", new FunctionSig {
+				FunctionName =  "wcLinkTargetOmega",
 				ReturnType = VarType.Void,
 				ParamTypes = new VarType[] {VarType.Integer, VarType.Vector, VarType.Float, VarType.Float},
 				ParamNames = new string[] {"linkeNumber", "axis", "spinRate", "gain"},
@@ -2563,57 +2563,57 @@ namespace Inworldz.Joke.Types
                 TableIndex = 364
 			}},
 
-            {"iwGetLinkInventoryNumber", new FunctionSig {
-				FunctionName =  "iwGetLinkInventoryNumber",
+            {"wcGetLinkInventoryNumber", new FunctionSig {
+				FunctionName =  "wcGetLinkInventoryNumber",
 				ReturnType = VarType.Integer,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.Integer},
                 ParamNames = new string[] {"linknumber", "type"},
                 TableIndex = 365
 			}},
-            {"iwGetLinkInventoryType", new FunctionSig {
-				FunctionName =  "iwGetLinkInventoryType",
+            {"wcGetLinkInventoryType", new FunctionSig {
+				FunctionName =  "wcGetLinkInventoryType",
 				ReturnType = VarType.Integer,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.String},
                 ParamNames = new string[] {"linknumber", "name"},
                 TableIndex = 366
 			}},
-            {"iwGetLinkInventoryPermMask", new FunctionSig {
-				FunctionName =  "iwGetLinkInventoryPermMask",
+            {"wcGetLinkInventoryPermMask", new FunctionSig {
+				FunctionName =  "wcGetLinkInventoryPermMask",
 				ReturnType = VarType.Integer,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.String, VarType.Integer},
                 ParamNames = new string[] {"linknumber", "name", "mask"},
                 TableIndex = 367
 			}},
-            {"iwGetLinkInventoryName", new FunctionSig {
-				FunctionName =  "iwGetLinkInventoryName",
+            {"wcGetLinkInventoryName", new FunctionSig {
+				FunctionName =  "wcGetLinkInventoryName",
 				ReturnType = VarType.String,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.Integer, VarType.Integer},
                 ParamNames = new string[] {"linknumber", "type", "number"},
                 TableIndex = 368
 			}},
-            {"iwGetLinkInventoryKey", new FunctionSig {
-				FunctionName =  "iwGetLinkInventoryKey",
+            {"wcGetLinkInventoryKey", new FunctionSig {
+				FunctionName =  "wcGetLinkInventoryKey",
 				ReturnType = VarType.String,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.String},
                 ParamNames = new string[] {"linknumber", "name"},
                 TableIndex = 369
 			}},
-            {"iwGetLinkInventoryCreator", new FunctionSig {
-				FunctionName =  "iwGetLinkInventoryCreator",
+            {"wcGetLinkInventoryCreator", new FunctionSig {
+				FunctionName =  "wcGetLinkInventoryCreator",
 				ReturnType = VarType.String,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.String},
                 ParamNames = new string[] {"linknumber", "name"},
                 TableIndex = 370
 			}},
-            {"iwSHA256String", new FunctionSig {
-				FunctionName =  "iwSHA256String",
+            {"wcSHA256String", new FunctionSig {
+				FunctionName =  "wcSHA256String",
 				ReturnType = VarType.String,
                 ParamTypes = new VarType[] {VarType.String},
                 ParamNames = new string[] {"src"},
                 TableIndex = 371
 			}},
-            {"iwTeleportAgent", new FunctionSig {
-				FunctionName =  "iwTeleportAgent",
+            {"wcTeleportAgent", new FunctionSig {
+				FunctionName =  "wcTeleportAgent",
 				ReturnType = VarType.Void,
                 ParamTypes = new VarType[] {VarType.String, VarType.String, VarType.Vector, VarType.Vector},
                 ParamNames = new string[] {"agent", "region", "pos", "lookat"},
@@ -2626,71 +2626,71 @@ namespace Inworldz.Joke.Types
                 ParamNames = new string[] {"linknumber"},
 				TableIndex = 373
 			}},
-			{"iwGetLastOwner", new FunctionSig {
-				FunctionName =  "iwGetLastOwner",
+			{"wcGetLastOwner", new FunctionSig {
+				FunctionName =  "wcGetLastOwner",
 				ReturnType = VarType.Key,
 				ParamTypes = new VarType[] {},
 				ParamNames = new string[] {},
 				TableIndex = 374
 			}},
-			{"iwRemoveLinkInventory", new FunctionSig {
-				FunctionName =  "iwRemoveLinkInventory",
+			{"wcRemoveLinkInventory", new FunctionSig {
+				FunctionName =  "wcRemoveLinkInventory",
 				ReturnType = VarType.Void,
 				ParamTypes = new VarType[] {VarType.Integer, VarType.String},
 				ParamNames = new string[] {"linknumber", "name"},
 				TableIndex = 375
 			}},
-			{"iwGiveLinkInventory", new FunctionSig {
-				FunctionName =  "iwGiveLinkInventory",
+			{"wcGiveLinkInventory", new FunctionSig {
+				FunctionName =  "wcGiveLinkInventory",
 				ReturnType = VarType.Void,
 				ParamTypes = new VarType[] {VarType.Integer, VarType.Key, VarType.String},
 				ParamNames = new string[] {"linknumber", "target", "name"},
 				TableIndex = 376
 			}},
-			{"iwGiveLinkInventoryList", new FunctionSig {
-				FunctionName =  "iwGiveLinkInventoryList",
+			{"wcGiveLinkInventoryList", new FunctionSig {
+				FunctionName =  "wcGiveLinkInventoryList",
 				ReturnType = VarType.Void,
 				ParamTypes = new VarType[] {VarType.Integer, VarType.Key, VarType.String, VarType.List},
 				ParamNames = new string[] {"linknumber", "target", "folder", "inventory"},
 				TableIndex = 377
 			}},
-			{"iwGetNotecardSegment", new FunctionSig {
-				FunctionName =  "iwGetNotecardSegment",
+			{"wcGetNotecardSegment", new FunctionSig {
+				FunctionName =  "wcGetNotecardSegment",
 				ReturnType = VarType.Key,
 				ParamTypes = new VarType[] {VarType.String, VarType.Integer, VarType.Integer, VarType.Integer},
 				ParamNames = new string[] {"name", "line", "startOffset", "maxLength"},
 				TableIndex = 378
 			}},
-			{"iwGetLinkNumberOfNotecardLines", new FunctionSig {
-				FunctionName =  "iwGetLinkNumberOfNotecardLines",
+			{"wcGetLinkNumberOfNotecardLines", new FunctionSig {
+				FunctionName =  "wcGetLinkNumberOfNotecardLines",
 				ReturnType = VarType.Key,
 				ParamTypes = new VarType[] {VarType.Integer, VarType.String},
 				ParamNames = new string[] {"linknumber", "name"},
 				TableIndex = 379
 			}},
-			{"iwGetLinkNotecardLine", new FunctionSig {
-				FunctionName =  "iwGetLinkNotecardLine",
+			{"wcGetLinkNotecardLine", new FunctionSig {
+				FunctionName =  "wcGetLinkNotecardLine",
 				ReturnType = VarType.Key,
 				ParamTypes = new VarType[] {VarType.Integer, VarType.String, VarType.Integer},
 				ParamNames = new string[] {"linknumber", "name", "line"},
 				TableIndex = 380
 			}},
-			{"iwGetLinkNotecardSegment", new FunctionSig {
-				FunctionName =  "iwGetLinkNotecardSegment",
+			{"wcGetLinkNotecardSegment", new FunctionSig {
+				FunctionName =  "wcGetLinkNotecardSegment",
 				ReturnType = VarType.Key,
 				ParamTypes = new VarType[] {VarType.Integer, VarType.String, VarType.Integer, VarType.Integer, VarType.Integer},
 				ParamNames = new string[] {"linknumber", "name", "line", "startOffset", "maxLength"},
 				TableIndex = 381
 			}},
-			{"iwActiveGroup", new FunctionSig {
-				FunctionName =  "iwActiveGroup",
+			{"wcActiveGroup", new FunctionSig {
+				FunctionName =  "wcActiveGroup",
 				ReturnType = VarType.Integer,
 				ParamTypes = new VarType[] {VarType.Key, VarType.Key},
 				ParamNames = new string[] {"agentId", "groupId"},
 				TableIndex = 382
 			}},
-			{"iwAvatarOnLink", new FunctionSig {
-				FunctionName =  "iwAvatarOnLink",
+			{"wcAvatarOnLink", new FunctionSig {
+				FunctionName =  "wcAvatarOnLink",
 				ReturnType = VarType.Key,
                 ParamTypes = new VarType[] {VarType.Integer},
                 ParamNames = new string[] {"linknumber"},
@@ -2710,8 +2710,8 @@ namespace Inworldz.Joke.Types
 				ParamNames = new string[] {},
 				TableIndex = 385
 			}},
-			{"iwGetLinkInventoryDesc", new FunctionSig {
-				FunctionName =  "iwGetLinkInventoryDesc",
+			{"wcGetLinkInventoryDesc", new FunctionSig {
+				FunctionName =  "wcGetLinkInventoryDesc",
 				ReturnType = VarType.String,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.String},
                 ParamNames = new string[] {"linknumber", "name"},
@@ -2724,8 +2724,8 @@ namespace Inworldz.Joke.Types
 				ParamNames = new string[] {},
 				TableIndex = 387
 			}},
-			{"iwGetLinkInventoryLastOwner", new FunctionSig {
-				FunctionName =  "iwGetLinkInventoryLastOwner",
+			{"wcGetLinkInventoryLastOwner", new FunctionSig {
+				FunctionName =  "wcGetLinkInventoryLastOwner",
 				ReturnType = VarType.Key,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.String},
                 ParamNames = new string[] {"linknumber", "name"},
@@ -2780,22 +2780,22 @@ namespace Inworldz.Joke.Types
                 ParamNames = new string[] {"force", "local"},
 				TableIndex = 395
 			}},
-            {"iwRezObject", new FunctionSig {
-				FunctionName =  "iwRezObject",
+            {"wcRezObject", new FunctionSig {
+				FunctionName =  "wcRezObject",
 				ReturnType = VarType.Key,
 				ParamTypes = new VarType[] {VarType.String, VarType.Vector, VarType.Vector, VarType.Rotation, VarType.Integer},
 				ParamNames = new string[] {"name", "pos", "vel", "rot", "param"},
 				TableIndex = 396
 			}},
-            {"iwRezAtRoot", new FunctionSig {
-				FunctionName =  "iwRezAtRoot",
+            {"wcRezAtRoot", new FunctionSig {
+				FunctionName =  "wcRezAtRoot",
 				ReturnType = VarType.Key,
 				ParamTypes = new VarType[] {VarType.String, VarType.Vector, VarType.Vector, VarType.Rotation, VarType.Integer},
 				ParamNames = new string[] {"name", "pos", "vel", "rot", "param"},
 				TableIndex = 397
 			}},
-            {"iwRezPrim", new FunctionSig {
-				FunctionName =  "iwRezPrim",
+            {"wcRezPrim", new FunctionSig {
+				FunctionName =  "wcRezPrim",
 				ReturnType = VarType.Key,
 				ParamTypes = new VarType[] {VarType.List, VarType.List, VarType.List, VarType.Vector, VarType.Vector, VarType.Rotation, VarType.Integer},
 				ParamNames = new string[] {"primParams", "particleSystem", "inventoryList", "pos", "vel", "rot", "param"},
@@ -2808,15 +2808,15 @@ namespace Inworldz.Joke.Types
 				ParamNames = new string[] {"id", "options"},
 				TableIndex = 399
 			}},
-			{"iwGetAgentList", new FunctionSig {
-				FunctionName =  "iwGetAgentList",
+			{"wcGetAgentList", new FunctionSig {
+				FunctionName =  "wcGetAgentList",
 				ReturnType = VarType.List,
 				ParamTypes = new VarType[] {VarType.Integer, VarType.Vector, VarType.Vector, VarType.List},
 				ParamNames = new string[] {"id", "minPos", "maxPos", "params"},
 				TableIndex = 400
 			}},
-			{"iwGetWorldBoundingBox", new FunctionSig {
-				FunctionName =  "iwGetWorldBoundingBox",
+			{"wcGetWorldBoundingBox", new FunctionSig {
+				FunctionName =  "wcGetWorldBoundingBox",
 				ReturnType = VarType.List,
 				ParamTypes = new VarType[] {VarType.Key},
 				ParamNames = new string[] {"object"},
@@ -2843,8 +2843,8 @@ namespace Inworldz.Joke.Types
 				ParamNames = new string[] {"action", "avatar"},
 				TableIndex = 404
 			}},
-			{"iwSubStringIndex", new FunctionSig {
-				FunctionName =  "iwSubStringIndex",
+			{"wcSubStringIndex", new FunctionSig {
+				FunctionName =  "wcSubStringIndex",
 				ReturnType = VarType.Integer,
 				ParamTypes = new VarType[] {VarType.String, VarType.String, VarType.Integer, VarType.Integer},
 				ParamNames = new string[] {"source", "pattern", "offset", "isCaseSensitive"},
@@ -2864,8 +2864,8 @@ namespace Inworldz.Joke.Types
 				ParamNames = new string[] {},
 				TableIndex = 407
 			}},
-			{"iwGetObjectMassMKS", new FunctionSig {
-				FunctionName =  "iwGetObjectMassMKS",
+			{"wcGetObjectMassMKS", new FunctionSig {
+				FunctionName =  "wcGetObjectMassMKS",
 				ReturnType = VarType.Float,
 				ParamTypes = new VarType[] {VarType.Key},
 				ParamNames = new string[] {"id"},
@@ -2878,8 +2878,8 @@ namespace Inworldz.Joke.Types
 				ParamNames = new string[] {"linknum", "eyeOffset", "cameraAt"},
 				TableIndex = 409
 			}},
-			{"iwSetGround", new FunctionSig {
-				FunctionName =  "iwSetGround",
+			{"wcSetGround", new FunctionSig {
+				FunctionName =  "wcSetGround",
 				ReturnType = VarType.Void,
 				ParamTypes = new VarType[] {VarType.Integer, VarType.Integer, VarType.Integer, VarType.Integer, VarType.Float},
 				ParamNames = new string[] {"x1", "y1", "x2", "y2", "height"},
@@ -2927,29 +2927,29 @@ namespace Inworldz.Joke.Types
 				ParamNames = new string[] {"src"},
 				TableIndex = 416
 			}},
-            {"iwSetWind", new FunctionSig {
-				FunctionName =  "iwSetWind",
+            {"wcSetWind", new FunctionSig {
+				FunctionName =  "wcSetWind",
 				ReturnType = VarType.Void,
 				ParamTypes = new VarType[] {VarType.Integer, VarType.Vector, VarType.Vector},
 				ParamNames = new string[] {"type", "offset", "speed"},
 				TableIndex = 417
 			}},
-			{"iwHasParcelPowers", new FunctionSig {
-				FunctionName =  "iwHasParcelPowers",
+			{"wcHasParcelPowers", new FunctionSig {
+				FunctionName =  "wcHasParcelPowers",
 				ReturnType = VarType.Integer,
 				ParamTypes = new VarType[] {VarType.Integer},
 				ParamNames = new string[] {"groupPower"},
 				TableIndex = 418
 			}},
-			{"iwGroundSurfaceNormal", new FunctionSig {
-				FunctionName =  "iwGroundSurfaceNormal",
+			{"wcGroundSurfaceNormal", new FunctionSig {
+				FunctionName =  "wcGroundSurfaceNormal",
 				ReturnType = VarType.Vector,
 				ParamTypes = new VarType[] {VarType.Vector},
 				ParamNames = new string[] {"offset"},
 				TableIndex = 419
 			}},
-			{"iwRequestAnimationData", new FunctionSig {
-				FunctionName =  "iwRequestAnimationData",
+			{"wcRequestAnimationData", new FunctionSig {
+				FunctionName =  "wcRequestAnimationData",
 				ReturnType = VarType.Key,
 				ParamTypes = new VarType[] {VarType.String},
 				ParamNames = new string[] {"name"},
@@ -2969,8 +2969,8 @@ namespace Inworldz.Joke.Types
 				ParamNames = new string[] {"keyframes", "options"},
 				TableIndex = 422
 			}},
-            {"iwWind", new FunctionSig {
-				FunctionName =  "iwWind",
+            {"wcWind", new FunctionSig {
+				FunctionName =  "wcWind",
 				ReturnType = VarType.Vector,
 				ParamTypes = new VarType[] {VarType.Vector},
 				ParamNames = new string[] {"offset"},
@@ -2983,22 +2983,22 @@ namespace Inworldz.Joke.Types
 				ParamNames = new string[] {},
 				TableIndex = 424
 			}},
-            {"iwGetLocalTime", new FunctionSig {
-				FunctionName =  "iwGetLocalTime",
+            {"wcGetLocalTime", new FunctionSig {
+				FunctionName =  "wcGetLocalTime",
 				ReturnType = VarType.Integer,
 				ParamTypes = new VarType[] {},
 				ParamNames = new string[] {},
 				TableIndex = 425
 			}},
-            {"iwGetLocalTimeOffset", new FunctionSig {
-				FunctionName =  "iwGetLocalTimeOffset",
+            {"wcGetLocalTimeOffset", new FunctionSig {
+				FunctionName =  "wcGetLocalTimeOffset",
 				ReturnType = VarType.Integer,
 				ParamTypes = new VarType[] {},
 				ParamNames = new string[] {},
 				TableIndex = 426
 			}},
-            {"iwFormatTime", new FunctionSig {
-				FunctionName =  "iwFormatTime",
+            {"wcFormatTime", new FunctionSig {
+				FunctionName =  "wcFormatTime",
 				ReturnType = VarType.String,
 				ParamTypes = new VarType[] {VarType.Integer, VarType.Integer, VarType.String},
 				ParamNames = new string[] {"unixtime", "isUTC", "format"},
@@ -3270,8 +3270,8 @@ namespace Inworldz.Joke.Types
 				ParamNames = new string[] {},
 				TableIndex = 465
 			}},
-            {"iwDetectedBot", new FunctionSig {
-				FunctionName =  "iwDetectedBot",
+            {"wcDetectedBot", new FunctionSig {
+				FunctionName =  "wcDetectedBot",
 				ReturnType = VarType.Key,
 				ParamTypes = new VarType[] {},
 				ParamNames = new string[] {},
@@ -3361,127 +3361,127 @@ namespace Inworldz.Joke.Types
 				ParamNames = new string[] {"botID", "profileParams"},
 				TableIndex = 478
 			}},
-            {"iwCheckRezError", new FunctionSig {
-				FunctionName =  "iwCheckRezError",
+            {"wcCheckRezError", new FunctionSig {
+				FunctionName =  "wcCheckRezError",
 				ReturnType = VarType.Integer,
 				ParamTypes = new VarType[] {VarType.Vector, VarType.Integer, VarType.Integer},
 				ParamNames = new string[] {"offset", "isTemp", "landImpact"},
 				TableIndex = 479
 			}},
-            {"iwGetAngularVelocity", new FunctionSig {
-				FunctionName =  "iwGetAngularVelocity",
+            {"wcGetAngularVelocity", new FunctionSig {
+				FunctionName =  "wcGetAngularVelocity",
 				ReturnType = VarType.Vector,
 				ParamTypes = new VarType[] {},
 				ParamNames = new string[] {},
 				TableIndex = 480
 			}},
-            {"iwGetAppearanceParam", new FunctionSig {
-				FunctionName =  "iwGetAppearanceParam",
+            {"wcGetAppearanceParam", new FunctionSig {
+				FunctionName =  "wcGetAppearanceParam",
 				ReturnType = VarType.Integer,
 				ParamTypes = new VarType[] {VarType.Key, VarType.Integer},
 				ParamNames = new string[] {"avatarKey","whichParam"},
 				TableIndex = 481
 			}},
-			{"iwParseString2List", new FunctionSig {
-				FunctionName =  "iwParseString2List",
+			{"wcParseString2List", new FunctionSig {
+				FunctionName =  "wcParseString2List",
 				ReturnType = VarType.List,
 				ParamTypes = new VarType[] {VarType.String, VarType.List, VarType.List, VarType.List},
 				ParamNames = new string[] {"src", "separators", "spacers", "args"},
 				TableIndex = 482
 			}},
-            {"iwChar2Int", new FunctionSig {
-                FunctionName = "iwChar2Int",
+            {"wcChar2Int", new FunctionSig {
+                FunctionName = "wcChar2Int",
                 ReturnType = VarType.Integer,
                 ParamTypes = new VarType[] {VarType.String, VarType.Integer},
                 ParamNames = new string[] {"src", "index"},
                 TableIndex = 483
             }},
-            {"iwInt2Char", new FunctionSig {
-                FunctionName = "iwInt2Char",
+            {"wcInt2Char", new FunctionSig {
+                FunctionName = "wcInt2Char",
                 ReturnType = VarType.String,
                 ParamTypes = new VarType[] {VarType.Integer},
                 ParamNames = new string[] {"num"},
                 TableIndex = 484
             }},
-            {"iwReplaceString", new FunctionSig {
-                FunctionName = "iwReplaceString",
+            {"wcReplaceString", new FunctionSig {
+                FunctionName = "wcReplaceString",
                 ReturnType = VarType.String,
                 ParamTypes = new VarType[] {VarType.String, VarType.String, VarType.String},
                 ParamNames = new string[] {"str", "pattern", "replacement"},
                 TableIndex = 485
             }},
-            {"iwFormatString", new FunctionSig {
-                FunctionName = "iwFormatString",
+            {"wcFormatString", new FunctionSig {
+                FunctionName = "wcFormatString",
                 ReturnType = VarType.String,
                 ParamTypes = new VarType[] {VarType.String, VarType.List},
                 ParamNames = new string[] {"str", "values"},
                 TableIndex = 486
             }},
-            {"iwMatchString", new FunctionSig {
-                FunctionName = "iwMatchString",
+            {"wcMatchString", new FunctionSig {
+                FunctionName = "wcMatchString",
                 ReturnType = VarType.Integer,
                 ParamTypes = new VarType[] {VarType.String, VarType.String, VarType.Integer},
                 ParamNames = new string[] {"str", "pattern", "matchType"},
                 TableIndex = 487
             }},
-            {"iwStringCodec", new FunctionSig {
-                FunctionName = "iwStringCodec",
+            {"wcStringCodec", new FunctionSig {
+                FunctionName = "wcStringCodec",
                 ReturnType = VarType.String,
                 ParamTypes = new VarType[] {VarType.String, VarType.String, VarType.Integer, VarType.List},
                 ParamNames = new string[] {"str", "codec", "operation", "extraParams"},
                 TableIndex = 488
             }},
-            {"iwMatchList", new FunctionSig {
-                FunctionName = "iwMatchList",
+            {"wcMatchList", new FunctionSig {
+                FunctionName = "wcMatchList",
                 ReturnType = VarType.Integer,
                 ParamTypes = new VarType[] {VarType.List, VarType.List, VarType.Integer},
                 ParamNames = new string[] {"list1", "list2", "matchType"},
                 TableIndex = 489
             }},
-            {"iwColorConvert", new FunctionSig {
-                FunctionName = "iwColorConvert",
+            {"wcColorConvert", new FunctionSig {
+                FunctionName = "wcColorConvert",
                 ReturnType = VarType.Vector,
                 ParamTypes = new VarType[] {VarType.Vector, VarType.Integer, VarType.Integer},
                 ParamNames = new string[] {"input", "color1", "color2"},
                 TableIndex = 490
             }},
-            {"iwNameToColor", new FunctionSig {
-                FunctionName = "iwNameToColor",
+            {"wcNameToColor", new FunctionSig {
+                FunctionName = "wcNameToColor",
                 ReturnType = VarType.Vector,
                 ParamTypes = new VarType[] {VarType.String},
                 ParamNames = new string[] {"name"},
                 TableIndex = 491
             }},
-            {"iwVerifyType", new FunctionSig {
-                FunctionName = "iwVerifyType",
+            {"wcVerifyType", new FunctionSig {
+                FunctionName = "wcVerifyType",
                 ReturnType = VarType.Integer,
                 ParamTypes = new VarType[] {VarType.String, VarType.Integer},
                 ParamNames = new string[] {"str", "type"},
                 TableIndex = 492
             }},
-			{"iwGroupInvite", new FunctionSig {
-				FunctionName =  "iwGroupInvite",
+			{"wcGroupInvite", new FunctionSig {
+				FunctionName =  "wcGroupInvite",
 				ReturnType = VarType.Integer,
 				ParamTypes = new VarType[] {VarType.Key, VarType.Key, VarType.String},
 				ParamNames = new string[] {"group", "user", "rolename"},
 				TableIndex = 493
 			}},
-			{"iwGroupEject", new FunctionSig {
-				FunctionName =  "iwGroupEject",
+			{"wcGroupEject", new FunctionSig {
+				FunctionName =  "wcGroupEject",
 				ReturnType = VarType.Integer,
 				ParamTypes = new VarType[] {VarType.Key, VarType.Key},
 				ParamNames = new string[] {"group", "user"},
 				TableIndex = 494
 			}},
- 			{"iwGetAgentData", new FunctionSig {
-				FunctionName =  "iwGetAgentData",
+ 			{"wcGetAgentData", new FunctionSig {
+				FunctionName =  "wcGetAgentData",
 				ReturnType = VarType.String,
 				ParamTypes = new VarType[] {VarType.Key, VarType.Integer},
 				ParamNames = new string[] {"id", "data"},
 				TableIndex = 495
 			}},
- 			{"iwIsPlusUser", new FunctionSig {
-				FunctionName =  "iwIsPlusUser",
+ 			{"wcIsPlusUser", new FunctionSig {
+				FunctionName =  "wcIsPlusUser",
 				ReturnType = VarType.Integer,
 				ParamTypes = new VarType[] {VarType.Key},
 				ParamNames = new string[] {"id"},
@@ -3494,57 +3494,57 @@ namespace Inworldz.Joke.Types
 				ParamNames = new string[] {"attachPoint"},
 				TableIndex = 497
 			}},
-            {"iwListIncludesElements", new FunctionSig {
-                FunctionName = "iwListIncludesElements",
+            {"wcListIncludesElements", new FunctionSig {
+                FunctionName = "wcListIncludesElements",
                 ReturnType = VarType.Integer,
                 ParamTypes = new VarType[] {VarType.List, VarType.List, VarType.Integer},
                 ParamNames = new string[] {"src", "elements", "any"},
                 TableIndex = 498
             }},
-            {"iwReverseString", new FunctionSig {
-                FunctionName = "iwReverseString",
+            {"wcReverseString", new FunctionSig {
+                FunctionName = "wcReverseString",
                 ReturnType = VarType.String,
                 ParamTypes = new VarType[] {VarType.String},
                 ParamNames = new string[] {"src"},
                 TableIndex = 499
             }},
-            {"iwReverseList", new FunctionSig {
-                FunctionName = "iwReverseList",
+            {"wcReverseList", new FunctionSig {
+                FunctionName = "wcReverseList",
                 ReturnType = VarType.List,
                 ParamTypes = new VarType[] {VarType.List, VarType.Integer},
                 ParamNames = new string[] {"src", "stride"},
                 TableIndex = 500
             }},
-            {"iwSearchInventory", new FunctionSig {
-                FunctionName = "iwSearchInventory",
+            {"wcSearchInventory", new FunctionSig {
+                FunctionName = "wcSearchInventory",
                 ReturnType = VarType.List,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.String, VarType.Integer},
                 ParamNames = new string[] {"type", "pattern", "matchtype"},
                 TableIndex = 501
             }},
-            {"iwSearchLinkInventory", new FunctionSig {
-                FunctionName = "iwSearchLinkInventory",
+            {"wcSearchLinkInventory", new FunctionSig {
+                FunctionName = "wcSearchLinkInventory",
                 ReturnType = VarType.List,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.Integer, VarType.String, VarType.Integer},
                 ParamNames = new string[] {"link", "type", "pattern", "matchtype"},
                 TableIndex = 502
             }},
-            {"iwIntRand", new FunctionSig {
-                FunctionName = "iwIntRand",
+            {"wcIntRand", new FunctionSig {
+                FunctionName = "wcIntRand",
                 ReturnType = VarType.Integer,
                 ParamTypes = new VarType[] {VarType.Integer},
                 ParamNames = new string[] {"max"},
                 TableIndex = 503
             }},
-            {"iwIntRandRange", new FunctionSig {
-                FunctionName = "iwIntRandRange",
+            {"wcIntRandRange", new FunctionSig {
+                FunctionName = "wcIntRandRange",
                 ReturnType = VarType.Integer,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.Integer},
                 ParamNames = new string[] {"min", "max"},
                 TableIndex = 504
             }},
-            {"iwFrandRange", new FunctionSig {
-                FunctionName = "iwFrandRange",
+            {"wcFrandRange", new FunctionSig {
+                FunctionName = "wcFrandRange",
                 ReturnType = VarType.Float,
                 ParamTypes = new VarType[] {VarType.Float, VarType.Float},
                 ParamNames = new string[] {"min", "max"},
@@ -3557,57 +3557,57 @@ namespace Inworldz.Joke.Types
                 ParamNames = new string[] {"pattern", "matchType", "start", "end"},
                 TableIndex = 506
             }},
-            {"iwListRemoveElements", new FunctionSig {
-                FunctionName = "iwListRemoveElements",
+            {"wcListRemoveElements", new FunctionSig {
+                FunctionName = "wcListRemoveElements",
                 ReturnType = VarType.List,
                 ParamTypes = new VarType[] {VarType.List, VarType.List, VarType.Integer, VarType.Integer},
                 ParamNames = new string[] {"src", "elements", "count", "mode"},
                 TableIndex = 507
             }},
-            {"iwListRemoveDuplicates", new FunctionSig {
-                FunctionName = "iwListRemoveDuplicates",
+            {"wcListRemoveDuplicates", new FunctionSig {
+                FunctionName = "wcListRemoveDuplicates",
                 ReturnType = VarType.List,
                 ParamTypes = new VarType[] {VarType.List},
                 ParamNames = new string[] {"src"},
                 TableIndex = 508
             }},
-            {"iwStartLinkAnimation", new FunctionSig {
-                FunctionName = "iwStartLinkAnimation",
+            {"wcStartLinkAnimation", new FunctionSig {
+                FunctionName = "wcStartLinkAnimation",
                 ReturnType = VarType.Void,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.String},
                 ParamNames = new string[] {"link", "anim"},
                 TableIndex = 509
             }},
-            {"iwStopLinkAnimation", new FunctionSig {
-                FunctionName = "iwStopLinkAnimation",
+            {"wcStopLinkAnimation", new FunctionSig {
+                FunctionName = "wcStopLinkAnimation",
                 ReturnType = VarType.Void,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.String},
                 ParamNames = new string[] {"link", "anim"},
                 TableIndex = 510
             }},
-            {"iwClampInt", new FunctionSig {
-                FunctionName = "iwClampInt",
+            {"wcClampInt", new FunctionSig {
+                FunctionName = "wcClampInt",
                 ReturnType = VarType.Integer,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.Integer, VarType.Integer},
                 ParamNames = new string[] {"value", "min", "max"},
                 TableIndex = 511
             }},
-            {"iwClampFloat", new FunctionSig {
-                FunctionName = "iwClampFloat",
+            {"wcClampFloat", new FunctionSig {
+                FunctionName = "wcClampFloat",
                 ReturnType = VarType.Float,
                 ParamTypes = new VarType[] {VarType.Float, VarType.Float, VarType.Float},
                 ParamNames = new string[] {"value", "min", "max"},
                 TableIndex = 512
             }},
-            {"iwSearchLinksByName", new FunctionSig {
-                FunctionName = "iwSearchLinksByName",
+            {"wcSearchLinksByName", new FunctionSig {
+                FunctionName = "wcSearchLinksByName",
                 ReturnType = VarType.List,
                 ParamTypes = new VarType[] {VarType.String, VarType.Integer, VarType.Integer},
                 ParamNames = new string[] {"pattern", "matchType", "linksOnly"},
                 TableIndex = 513
             }},
-            {"iwSearchLinksByDesc", new FunctionSig {
-                FunctionName = "iwSearchLinksByDesc",
+            {"wcSearchLinksByDesc", new FunctionSig {
+                FunctionName = "wcSearchLinksByDesc",
                 ReturnType = VarType.List,
                 ParamTypes = new VarType[] {VarType.String, VarType.Integer, VarType.Integer},
                 ParamNames = new string[] {"pattern", "matchType", "linksOnly"},
@@ -3627,29 +3627,29 @@ namespace Inworldz.Joke.Types
                 ParamNames = new string[] {"botID"},
                 TableIndex = 516
 			}},
-            {"iwValidateURL", new FunctionSig {
-                FunctionName = "iwValidateURL",
+            {"wcValidateURL", new FunctionSig {
+                FunctionName = "wcValidateURL",
                 ReturnType = VarType.Integer,
                 ParamTypes = new VarType[] {VarType.String},
                 ParamNames = new string[] {"url"},
                 TableIndex = 517
             }},
-            {"iwRemoteLoadScriptPin", new FunctionSig {
-				FunctionName = "iwRemoteLoadScriptPin",
+            {"wcRemoteLoadScriptPin", new FunctionSig {
+				FunctionName = "wcRemoteLoadScriptPin",
 				ReturnType = VarType.Integer,
 				ParamTypes = new VarType[] {VarType.Key, VarType.String, VarType.Integer, VarType.Integer, VarType.Integer},
 				ParamNames = new string[] {"target", "name", "pin", "running", "start_param"},
 				TableIndex = 518
 			}},
-            {"iwDeliverInventory", new FunctionSig {
-                FunctionName =  "iwDeliverInventory",
+            {"wcDeliverInventory", new FunctionSig {
+                FunctionName =  "wcDeliverInventory",
                 ReturnType = VarType.Integer,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.Key, VarType.String},
                 ParamNames = new string[] {"linknumber", "target", "name"},
                 TableIndex = 519
             }},
-            {"iwDeliverInventoryList", new FunctionSig {
-                FunctionName =  "iwDeliverInventoryList",
+            {"wcDeliverInventoryList", new FunctionSig {
+                FunctionName =  "wcDeliverInventoryList",
                 ReturnType = VarType.Integer,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.Key, VarType.String, VarType.List},
                 ParamNames = new string[] {"linknumber", "target", "folder", "inventory"},
@@ -3683,22 +3683,22 @@ namespace Inworldz.Joke.Types
                 ParamNames = new string[] {"destination", "amount"},
                 TableIndex = 524
             }},
-            {"iwGiveMoney", new FunctionSig {
-                FunctionName =  "iwGiveMoney",
+            {"wcGiveMoney", new FunctionSig {
+                FunctionName =  "wcGiveMoney",
                 ReturnType = VarType.Key,
                 ParamTypes = new VarType[] {VarType.Key, VarType.Integer},
                 ParamNames = new string[] {"destination", "amount"},
                 TableIndex = 525
             }},
-            {"iwStandTarget", new FunctionSig {
-                FunctionName =  "iwStandTarget",
+            {"wcStandTarget", new FunctionSig {
+                FunctionName =  "wcStandTarget",
                 ReturnType = VarType.Void,
                 ParamTypes = new VarType[] {VarType.Vector, VarType.Rotation},
                 ParamNames = new string[] {"offset", "rot"},
                 TableIndex = 526
             }},
-            {"iwLinkStandTarget", new FunctionSig {
-                FunctionName =  "iwLinkStandTarget",
+            {"wcLinkStandTarget", new FunctionSig {
+                FunctionName =  "wcLinkStandTarget",
                 ReturnType = VarType.Void,
                 ParamTypes = new VarType[] {VarType.Integer, VarType.Vector, VarType.Rotation},
                 ParamNames = new string[] {"linknum", "offset", "rot"},

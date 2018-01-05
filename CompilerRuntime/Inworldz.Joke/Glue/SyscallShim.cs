@@ -421,36 +421,36 @@ namespace Inworldz.Joke.Glue
 				Shim_llRequestUsername,     //356
 				Shim_llGetDisplayName,      //357
 				Shim_llRequestDisplayName,  //358
-				Shim_iwMakeNotecard,        //359
-				Shim_iwAvatarName2Key,      //360
-                Shim_iwLinkTargetOmega,     //361
+				Shim_wcMakeNotecard,        //359
+				Shim_wcAvatarName2Key,      //360
+                Shim_wcLinkTargetOmega,     //361
                 Shim_llSetVehicleRotationParam, //362
 				Shim_llGetParcelMusicURL,   //363
                 Shim_llSetRegionPos,        //364
-                Shim_iwGetLinkInventoryNumber,  //365
-                Shim_iwGetLinkInventoryType,    //366
-                Shim_iwGetLinkInventoryPermMask,//367
-                Shim_iwGetLinkInventoryName,//368
-                Shim_iwGetLinkInventoryKey, //369
-                Shim_iwGetLinkInventoryCreator, //370
-                Shim_iwSHA256String,        //371
-                Shim_iwTeleportAgent,       //372
+                Shim_wcGetLinkInventoryNumber,  //365
+                Shim_wcGetLinkInventoryType,    //366
+                Shim_wcGetLinkInventoryPermMask,//367
+                Shim_wcGetLinkInventoryName,//368
+                Shim_wcGetLinkInventoryKey, //369
+                Shim_wcGetLinkInventoryCreator, //370
+                Shim_wcSHA256String,        //371
+                Shim_wcTeleportAgent,       //372
                 Shim_llAvatarOnLinkSitTarget,   //373
-                Shim_iwGetLastOwner,        //374
-				Shim_iwRemoveLinkInventory, //375
-				Shim_iwGiveLinkInventory,   //376
-				Shim_iwGiveLinkInventoryList,   //377
-                Shim_iwGetNotecardSegment,  //378
-                Shim_iwGetLinkNumberOfNotecardLines,    //379
-                Shim_iwGetLinkNotecardLine, //380
-                Shim_iwGetLinkNotecardSegment,  //381
-                Shim_iwActiveGroup,         //382
-                Shim_iwAvatarOnLink,        //383
+                Shim_wcGetLastOwner,        //374
+				Shim_wcRemoveLinkInventory, //375
+				Shim_wcGiveLinkInventory,   //376
+				Shim_wcGiveLinkInventoryList,   //377
+                Shim_wcGetNotecardSegment,  //378
+                Shim_wcGetLinkNumberOfNotecardLines,    //379
+                Shim_wcGetLinkNotecardLine, //380
+                Shim_wcGetLinkNotecardSegment,  //381
+                Shim_wcActiveGroup,         //382
+                Shim_wcAvatarOnLink,        //383
 				Shim_llRegionSayTo,         //384
                 Shim_llGetUsedMemory,       //385
-                Shim_iwGetLinkInventoryDesc,//386
+                Shim_wcGetLinkInventoryDesc,//386
                 Shim_llGenerateKey,			//387
-                Shim_iwGetLinkInventoryLastOwner, //388
+                Shim_wcGetLinkInventoryLastOwner, //388
 				Shim_llSetLinkMedia,        //389
 				Shim_llGetLinkMedia,        //390
 				Shim_llClearLinkMedia,      //391
@@ -458,38 +458,38 @@ namespace Inworldz.Joke.Glue
                 Shim_llSetAngularVelocity,  //393
                 Shim_llSetPhysicsMaterial,  //394
                 Shim_llSetVelocity,         //395
-				Shim_iwRezObject,           //396
-				Shim_iwRezAtRoot,           //397
-				Shim_iwRezPrim,             //398
+				Shim_wcRezObject,           //396
+				Shim_wcRezAtRoot,           //397
+				Shim_wcRezPrim,             //398
                 Shim_llGetAgentList,        //399
-                Shim_iwGetAgentList,        //400
-                Shim_iwGetWorldBoundingBox, //401
+                Shim_wcGetAgentList,        //400
+                Shim_wcGetWorldBoundingBox, //401
                 Shim_llSetMemoryLimit,      //402
                 Shim_llGetMemoryLimit,      //403
                 Shim_llManageEstateAccess,  //404
-				Shim_iwSubStringIndex,      //405
+				Shim_wcSubStringIndex,      //405
                 Shim_llLinkSitTarget,       //406
 				Shim_llGetMass,             //407
-                Shim_iwGetObjectMassMKS,    //408
+                Shim_wcGetObjectMassMKS,    //408
                 Shim_llSetLinkCamera,       //409
-				Shim_iwSetGround,           //410
+				Shim_wcSetGround,           //410
                 Shim_llSetContentType,      //411
                 Shim_llJsonGetValue,        //412
                 Shim_llJsonValueType,       //413
                 Shim_llJsonSetValue,        //414
                 Shim_llList2Json,           //415
                 Shim_llJson2List,           //416
-                Shim_iwSetWind,             //417
-                Shim_iwHasParcelPowers,     //418
-                Shim_iwGroundSurfaceNormal, //419
-                Shim_iwRequestAnimationData,//420
+                Shim_wcSetWind,             //417
+                Shim_wcHasParcelPowers,     //418
+                Shim_wcGroundSurfaceNormal, //419
+                Shim_wcRequestAnimationData,//420
                 Shim_llCastRay,             //421
                 Shim_llSetKeyframedMotion,  //422
-                Shim_iwWind,                //423
+                Shim_wcWind,                //423
                 Shim_llGetPhysicsMaterial,  //424
-                Shim_iwGetLocalTime,        //425
-                Shim_iwGetLocalTimeOffset,  //426
-                Shim_iwFormatTime,          //427
+                Shim_wcGetLocalTime,        //425
+                Shim_wcGetLocalTimeOffset,  //426
+                Shim_wcFormatTime,          //427
                 Shim_botCreateBot,          //428
                 Shim_botAddTag,             //429
                 Shim_botRemoveTag,          //430
@@ -528,7 +528,7 @@ namespace Inworldz.Joke.Glue
                 Shim_botSensor,             //463
                 Shim_botSensorRepeat,       //464
                 Shim_botSensorRemove,       //465
-                Shim_iwDetectedBot,         //466
+                Shim_wcDetectedBot,         //466
                 Shim_botListen,             //467
                 Shim_botRegisterForCollisionEvents,//468
                 Shim_botDeregisterFromCollisionEvents,//469
@@ -541,55 +541,55 @@ namespace Inworldz.Joke.Glue
                 Shim_botMessageLinked,      //476
                 Shim_botSetProfileParams,   //477
                 Shim_botGetProfileParams,   //478
-                Shim_iwCheckRezError,       //479
-                Shim_iwGetAngularVelocity,  //480
-                Shim_iwGetAppearanceParam,  //481
-                Shim_iwParseString2List,    //482
-                Shim_iwChar2Int,            //483
-                Shim_iwInt2Char,            //484
-                Shim_iwReplaceString,       //485
-                Shim_iwFormatString,        //486
-                Shim_iwMatchString,         //487
-                Shim_iwStringCodec,         //488
-                Shim_iwMatchList,           //489
-                Shim_iwColorConvert,        //490
-                Shim_iwNameToColor,         //491
-                Shim_iwVerifyType,          //492
-                Shim_iwGroupInvite,         //493
-                Shim_iwGroupEject,          //494
-				Shim_iwGetAgentData,        //495
-                Shim_iwIsPlusUser,          //496
+                Shim_wcCheckRezError,       //479
+                Shim_wcGetAngularVelocity,  //480
+                Shim_wcGetAppearanceParam,  //481
+                Shim_wcParseString2List,    //482
+                Shim_wcChar2Int,            //483
+                Shim_wcInt2Char,            //484
+                Shim_wcReplaceString,       //485
+                Shim_wcFormatString,        //486
+                Shim_wcMatchString,         //487
+                Shim_wcStringCodec,         //488
+                Shim_wcMatchList,           //489
+                Shim_wcColorConvert,        //490
+                Shim_wcNameToColor,         //491
+                Shim_wcVerifyType,          //492
+                Shim_wcGroupInvite,         //493
+                Shim_wcGroupEject,          //494
+				Shim_wcGetAgentData,        //495
+                Shim_wcIsPlusUser,          //496
                 Shim_llAttachToAvatarTemp,  //497
-                Shim_iwListIncludesElements,//498
-                Shim_iwReverseString,       //499
-                Shim_iwReverseList,         //500
-                Shim_iwSearchInventory,     //501
-                Shim_iwSearchLinkInventory, //502
-                Shim_iwIntRand,             //503
-                Shim_iwIntRandRange,        //504
-                Shim_iwFrandRange,          //505
+                Shim_wcListIncludesElements,//498
+                Shim_wcReverseString,       //499
+                Shim_wcReverseList,         //500
+                Shim_wcSearchInventory,     //501
+                Shim_wcSearchLinkInventory, //502
+                Shim_wcIntRand,             //503
+                Shim_wcIntRandRange,        //504
+                Shim_wcFrandRange,          //505
                 Shim_botSearchBotOutfits,   //506
-                Shim_iwListRemoveElements,  //507
-                Shim_iwListRemoveDuplicates,//508
-                Shim_iwStartLinkAnimation,  //509
-                Shim_iwStopLinkAnimation,   //510
-                Shim_iwClampInt,            //511
-                Shim_iwClampFloat,          //512
-                Shim_iwSearchLinksByName,   //513
-                Shim_iwSearchLinksByDesc,   //514
+                Shim_wcListRemoveElements,  //507
+                Shim_wcListRemoveDuplicates,//508
+                Shim_wcStartLinkAnimation,  //509
+                Shim_wcStopLinkAnimation,   //510
+                Shim_wcClampInt,            //511
+                Shim_wcClampFloat,          //512
+                Shim_wcSearchLinksByName,   //513
+                Shim_wcSearchLinksByDesc,   //514
                 Shim_botHasTag,             //515
 				Shim_botGetBotTags,         //516
-                Shim_iwValidateURL,         //517
-				Shim_iwRemoteLoadScriptPin, //518
-				Shim_iwDeliverInventory,    //519
-				Shim_iwDeliverInventoryList,//520
+                Shim_wcValidateURL,         //517
+				Shim_wcRemoteLoadScriptPin, //518
+				Shim_wcDeliverInventory,    //519
+				Shim_wcDeliverInventoryList,//520
 				Shim_llGetAttachedList,     //521
 				Shim_llReturnObjectsByOwner,//522
 				Shim_llReturnObjectsByID,   //523
 				Shim_llTransferLindenDollars,//524
-				Shim_iwGiveMoney,           //525
-				Shim_iwStandTarget,         //526
-				Shim_iwLinkStandTarget,     //527
+				Shim_wcGiveMoney,           //525
+				Shim_wcStandTarget,         //526
+				Shim_wcLinkStandTarget,     //527
         };
 
         public void SetScriptEventFlags()
@@ -2320,14 +2320,14 @@ namespace Inworldz.Joke.Glue
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwSubStringIndex(SyscallShim self)
+        static private void Shim_wcSubStringIndex(SyscallShim self)
         {
             int p3 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int p2 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwSubStringIndex(p0, p1, p2, p3);
+            int ret = self._systemAPI.wcSubStringIndex(p0, p1, p2, p3);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
@@ -2655,14 +2655,14 @@ namespace Inworldz.Joke.Glue
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwParseString2List(SyscallShim self)
+        static private void Shim_wcParseString2List(SyscallShim self)
         {
             LSLList p3 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
             LSLList p2 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
             LSLList p1 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            LSLList ret = self._systemAPI.iwParseString2List(p0, p1, p2, p3);
+            LSLList ret = self._systemAPI.wcParseString2List(p0, p1, p2, p3);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
@@ -3211,11 +3211,11 @@ namespace Inworldz.Joke.Glue
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetWorldBoundingBox(SyscallShim self)
+        static private void Shim_wcGetWorldBoundingBox(SyscallShim self)
         {
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            LSLList ret = self._systemAPI.iwGetWorldBoundingBox(p0);
+            LSLList ret = self._systemAPI.wcGetWorldBoundingBox(p0);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
@@ -4030,7 +4030,7 @@ namespace Inworldz.Joke.Glue
             });
         }
 
-        static private void Shim_iwMakeNotecard(SyscallShim self)
+        static private void Shim_wcMakeNotecard(SyscallShim self)
         {
             LSLList p1 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
@@ -4040,11 +4040,11 @@ namespace Inworldz.Joke.Glue
 
             self._asyncCallDelegate(delegate()
             {
-                self._systemAPI.iwMakeNotecard(p0, p1);
+                self._systemAPI.wcMakeNotecard(p0, p1);
             });
         }
 
-        static private void Shim_iwAvatarName2Key(SyscallShim self)
+        static private void Shim_wcAvatarName2Key(SyscallShim self)
         {
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
@@ -4054,18 +4054,18 @@ namespace Inworldz.Joke.Glue
 
             self._asyncCallDelegate(delegate()
             {
-                self._systemAPI.iwAvatarName2Key(p0, p1);
+                self._systemAPI.wcAvatarName2Key(p0, p1);
             });
         }
 
-        static private void Shim_iwLinkTargetOmega(SyscallShim self)
+        static private void Shim_wcLinkTargetOmega(SyscallShim self)
         {
             float p3 = ConvToFloat(self._interpreter.ScriptState.Operands.Pop());
             float p2 = ConvToFloat(self._interpreter.ScriptState.Operands.Pop());
             Vector3 p1 = ConvToVector(self._interpreter.ScriptState.Operands.Pop());
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            self._systemAPI.iwLinkTargetOmega(p0, p1, p2, p3);
+            self._systemAPI.wcLinkTargetOmega(p0, p1, p2, p3);
         }
 
         static private void Shim_llGetParcelMusicURL(SyscallShim self)
@@ -4082,96 +4082,96 @@ namespace Inworldz.Joke.Glue
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetLinkInventoryNumber(SyscallShim self)
+        static private void Shim_wcGetLinkInventoryNumber(SyscallShim self)
         {
             int type = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int linknumber = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwGetLinkInventoryNumber(linknumber, type);
+            int ret = self._systemAPI.wcGetLinkInventoryNumber(linknumber, type);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetLinkInventoryType(SyscallShim self)
+        static private void Shim_wcGetLinkInventoryType(SyscallShim self)
         {
             string name = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             int linknumber = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwGetLinkInventoryType(linknumber, name);
+            int ret = self._systemAPI.wcGetLinkInventoryType(linknumber, name);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetLinkInventoryPermMask(SyscallShim self)
+        static private void Shim_wcGetLinkInventoryPermMask(SyscallShim self)
         {
             int mask = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             string item = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             int linknumber = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwGetLinkInventoryPermMask(linknumber, item, mask);
+            int ret = self._systemAPI.wcGetLinkInventoryPermMask(linknumber, item, mask);
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetLinkInventoryName(SyscallShim self)
+        static private void Shim_wcGetLinkInventoryName(SyscallShim self)
         {
             int number = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int type = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int linknumber = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwGetLinkInventoryName(linknumber, type, number);
+            string ret = self._systemAPI.wcGetLinkInventoryName(linknumber, type, number);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetLinkInventoryKey(SyscallShim self)
+        static private void Shim_wcGetLinkInventoryKey(SyscallShim self)
         {
             string name = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             int linknumber = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwGetLinkInventoryKey(linknumber, name);
+            string ret = self._systemAPI.wcGetLinkInventoryKey(linknumber, name);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetLinkInventoryCreator(SyscallShim self)
+        static private void Shim_wcGetLinkInventoryCreator(SyscallShim self)
         {
             string item = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             int linknumber = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwGetLinkInventoryCreator(linknumber, item);
+            string ret = self._systemAPI.wcGetLinkInventoryCreator(linknumber, item);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetLinkInventoryDesc(SyscallShim self)
+        static private void Shim_wcGetLinkInventoryDesc(SyscallShim self)
         {
             string item = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             int linknumber = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwGetLinkInventoryDesc(linknumber, item);
+            string ret = self._systemAPI.wcGetLinkInventoryDesc(linknumber, item);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetLinkInventoryLastOwner(SyscallShim self)
+        static private void Shim_wcGetLinkInventoryLastOwner(SyscallShim self)
         {
             string item = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             int linknumber = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwGetLinkInventoryLastOwner(linknumber, item);
+            string ret = self._systemAPI.wcGetLinkInventoryLastOwner(linknumber, item);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwSHA256String(SyscallShim self)
+        static private void Shim_wcSHA256String(SyscallShim self)
         {
             string src = ConvToString(self._interpreter.ScriptState.Operands.Pop());
-            string ret = self._systemAPI.iwSHA256String(src);
+            string ret = self._systemAPI.wcSHA256String(src);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwTeleportAgent(SyscallShim self)
+        static private void Shim_wcTeleportAgent(SyscallShim self)
         {
             Vector3 lookat = ConvToVector(self._interpreter.ScriptState.Operands.Pop());
             Vector3 pos = ConvToVector(self._interpreter.ScriptState.Operands.Pop());
@@ -4182,7 +4182,7 @@ namespace Inworldz.Joke.Glue
 
             self._asyncCallDelegate(delegate()
             {
-                self._systemAPI.iwTeleportAgent(agent, region, pos, lookat);
+                self._systemAPI.wcTeleportAgent(agent, region, pos, lookat);
             });
             
         }
@@ -4196,21 +4196,21 @@ namespace Inworldz.Joke.Glue
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetLastOwner(SyscallShim self)
+        static private void Shim_wcGetLastOwner(SyscallShim self)
         {
-            string ret = self._systemAPI.iwGetLastOwner();
+            string ret = self._systemAPI.wcGetLastOwner();
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwRemoveLinkInventory(SyscallShim self)
+        static private void Shim_wcRemoveLinkInventory(SyscallShim self)
         {
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            self._systemAPI.iwRemoveLinkInventory(p0, p1);
+            self._systemAPI.wcRemoveLinkInventory(p0, p1);
         }
 
-        static private void Shim_iwGiveLinkInventory(SyscallShim self)
+        static private void Shim_wcGiveLinkInventory(SyscallShim self)
         {
             string p2 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
@@ -4221,11 +4221,11 @@ namespace Inworldz.Joke.Glue
 
             self._asyncCallDelegate(delegate()
             {
-                self._systemAPI.iwGiveLinkInventory(p0, p1, p2);
+                self._systemAPI.wcGiveLinkInventory(p0, p1, p2);
             });
         }
 
-        static private void Shim_iwGiveLinkInventoryList(SyscallShim self)
+        static private void Shim_wcGiveLinkInventoryList(SyscallShim self)
         {
             LSLList p3 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
             string p2 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
@@ -4236,44 +4236,44 @@ namespace Inworldz.Joke.Glue
 
             self._asyncCallDelegate(delegate()
             {
-                self._systemAPI.iwGiveLinkInventoryList(p0, p1, p2, p3);
+                self._systemAPI.wcGiveLinkInventoryList(p0, p1, p2, p3);
             });
         }
 
-        static private void Shim_iwGetNotecardSegment(SyscallShim self)
+        static private void Shim_wcGetNotecardSegment(SyscallShim self)
         {
             int p3 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int p2 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int p1 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwGetNotecardSegment(p0, p1, p2, p3);
+            string ret = self._systemAPI.wcGetNotecardSegment(p0, p1, p2, p3);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetLinkNumberOfNotecardLines(SyscallShim self)
+        static private void Shim_wcGetLinkNumberOfNotecardLines(SyscallShim self)
         {
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwGetLinkNumberOfNotecardLines(p0, p1);
+            string ret = self._systemAPI.wcGetLinkNumberOfNotecardLines(p0, p1);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetLinkNotecardLine(SyscallShim self)
+        static private void Shim_wcGetLinkNotecardLine(SyscallShim self)
         {
             int p2 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwGetLinkNotecardLine(p0, p1, p2);
+            string ret = self._systemAPI.wcGetLinkNotecardLine(p0, p1, p2);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetLinkNotecardSegment(SyscallShim self)
+        static private void Shim_wcGetLinkNotecardSegment(SyscallShim self)
         {
             int p4 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int p3 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
@@ -4281,26 +4281,26 @@ namespace Inworldz.Joke.Glue
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwGetLinkNotecardSegment(p0, p1, p2, p3, p4);
+            string ret = self._systemAPI.wcGetLinkNotecardSegment(p0, p1, p2, p3, p4);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwActiveGroup(SyscallShim self)
+        static private void Shim_wcActiveGroup(SyscallShim self)
         {
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwActiveGroup(p0, p1);
+            int ret = self._systemAPI.wcActiveGroup(p0, p1);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwAvatarOnLink(SyscallShim self)
+        static private void Shim_wcAvatarOnLink(SyscallShim self)
         {
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwAvatarOnLink(p0);
+            string ret = self._systemAPI.wcAvatarOnLink(p0);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
@@ -4357,7 +4357,7 @@ namespace Inworldz.Joke.Glue
             self._systemAPI.llSetVelocity(p0, p1);
         }
 
-        static private void Shim_iwRezObject(SyscallShim self)
+        static private void Shim_wcRezObject(SyscallShim self)
         {
             int p4 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             Quaternion p3 = ConvToQuat(self._interpreter.ScriptState.Operands.Pop());
@@ -4370,11 +4370,11 @@ namespace Inworldz.Joke.Glue
 
             self._asyncCallDelegate(delegate()
             {
-                self._systemAPI.iwRezObject(p0, p1, p2, p3, p4);
+                self._systemAPI.wcRezObject(p0, p1, p2, p3, p4);
             });
         }
 
-        static private void Shim_iwRezAtRoot(SyscallShim self)
+        static private void Shim_wcRezAtRoot(SyscallShim self)
         {
             int p4 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             Quaternion p3 = ConvToQuat(self._interpreter.ScriptState.Operands.Pop());
@@ -4387,11 +4387,11 @@ namespace Inworldz.Joke.Glue
 
             self._asyncCallDelegate(delegate()
             {
-                self._systemAPI.iwRezAtRoot(p0, p1, p2, p3, p4);
+                self._systemAPI.wcRezAtRoot(p0, p1, p2, p3, p4);
             });
         }
 
-        static private void Shim_iwRezPrim(SyscallShim self)
+        static private void Shim_wcRezPrim(SyscallShim self)
         {
             int p6 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             Quaternion p5 = ConvToQuat(self._interpreter.ScriptState.Operands.Pop());
@@ -4400,7 +4400,7 @@ namespace Inworldz.Joke.Glue
             LSLList p2 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
             LSLList p1 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
             LSLList p0 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
-            string ret = self._systemAPI.iwRezPrim(p0, p1, p2, p3, p4, p5, p6);
+            string ret = self._systemAPI.wcRezPrim(p0, p1, p2, p3, p4, p5, p6);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
 
@@ -4417,15 +4417,15 @@ namespace Inworldz.Joke.Glue
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        // LSLList iwGetAgentList(int scope, Vector3 minPos, Vector3 maxPos, LSLList paramList);
-        static private void Shim_iwGetAgentList(SyscallShim self)
+        // LSLList wcGetAgentList(int scope, Vector3 minPos, Vector3 maxPos, LSLList paramList);
+        static private void Shim_wcGetAgentList(SyscallShim self)
         {
             LSLList p3 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
             Vector3 p2 = ConvToVector(self._interpreter.ScriptState.Operands.Pop());
             Vector3 p1 = ConvToVector(self._interpreter.ScriptState.Operands.Pop());
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            LSLList ret = self._systemAPI.iwGetAgentList(p0, p1, p2, p3);
+            LSLList ret = self._systemAPI.wcGetAgentList(p0, p1, p2, p3);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
@@ -4475,11 +4475,11 @@ namespace Inworldz.Joke.Glue
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetObjectMassMKS(SyscallShim self)
+        static private void Shim_wcGetObjectMassMKS(SyscallShim self)
         {
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            float ret = self._systemAPI.iwGetObjectMassMKS(p0);
+            float ret = self._systemAPI.wcGetObjectMassMKS(p0);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
@@ -4494,7 +4494,7 @@ namespace Inworldz.Joke.Glue
 
         }
 
-        static private void Shim_iwSetGround(SyscallShim self)
+        static private void Shim_wcSetGround(SyscallShim self)
         {
             float p4 = ConvToFloat(self._interpreter.ScriptState.Operands.Pop());
             int p3 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
@@ -4502,7 +4502,7 @@ namespace Inworldz.Joke.Glue
             int p1 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            self._systemAPI.iwSetGround(p0, p1, p2, p3, p4);
+            self._systemAPI.wcSetGround(p0, p1, p2, p3, p4);
         }
 
         static private void Shim_llSetContentType(SyscallShim self)
@@ -4563,39 +4563,39 @@ namespace Inworldz.Joke.Glue
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwSetWind(SyscallShim self)
+        static private void Shim_wcSetWind(SyscallShim self)
         {
             Vector3 p2 = ConvToVector(self._interpreter.ScriptState.Operands.Pop());
             Vector3 p1 = ConvToVector(self._interpreter.ScriptState.Operands.Pop());
             int     p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            self._systemAPI.iwSetWind(p0, p1, p2);
+            self._systemAPI.wcSetWind(p0, p1, p2);
         }
 
-        static private void Shim_iwHasParcelPowers(SyscallShim self)
+        static private void Shim_wcHasParcelPowers(SyscallShim self)
         {
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwHasParcelPowers(p0);
+            int ret = self._systemAPI.wcHasParcelPowers(p0);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGroundSurfaceNormal(SyscallShim self)
+        static private void Shim_wcGroundSurfaceNormal(SyscallShim self)
         {
             Vector3 p0 = ConvToVector(self._interpreter.ScriptState.Operands.Pop());
 
-            Vector3 ret = self._systemAPI.iwGroundSurfaceNormal(p0);
+            Vector3 ret = self._systemAPI.wcGroundSurfaceNormal(p0);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
 
-        static private void Shim_iwRequestAnimationData(SyscallShim self)
+        static private void Shim_wcRequestAnimationData(SyscallShim self)
         {
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwRequestAnimationData(p0);
+            string ret = self._systemAPI.wcRequestAnimationData(p0);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
@@ -4619,11 +4619,11 @@ namespace Inworldz.Joke.Glue
             self._systemAPI.llSetKeyframedMotion(p0,p1);
         }
 
-        static private void Shim_iwWind(SyscallShim self)
+        static private void Shim_wcWind(SyscallShim self)
         {
             Vector3 p0 = ConvToVector(self._interpreter.ScriptState.Operands.Pop());
 
-            Vector3 ret = self._systemAPI.iwWind(p0);
+            Vector3 ret = self._systemAPI.wcWind(p0);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
@@ -4635,38 +4635,38 @@ namespace Inworldz.Joke.Glue
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetLocalTime(SyscallShim self)
+        static private void Shim_wcGetLocalTime(SyscallShim self)
         {
-            int ret = self._systemAPI.iwGetLocalTime();
+            int ret = self._systemAPI.wcGetLocalTime();
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetLocalTimeOffset(SyscallShim self)
+        static private void Shim_wcGetLocalTimeOffset(SyscallShim self)
         {
-            int ret = self._systemAPI.iwGetLocalTimeOffset();
+            int ret = self._systemAPI.wcGetLocalTimeOffset();
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwFormatTime(SyscallShim self)
+        static private void Shim_wcFormatTime(SyscallShim self)
         {
             string p2 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             int p1 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwFormatTime(p0, p1, p2);
+            string ret = self._systemAPI.wcFormatTime(p0, p1, p2);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwCheckRezError(SyscallShim self)
+        static private void Shim_wcCheckRezError(SyscallShim self)
         {
             int p2 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int p1 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             Vector3 p0 = ConvToVector(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwCheckRezError(p0, p1, p2);
+            int ret = self._systemAPI.wcCheckRezError(p0, p1, p2);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
@@ -5023,9 +5023,9 @@ namespace Inworldz.Joke.Glue
             self._systemAPI.botSensorRemove();
         }
 
-        static private void Shim_iwDetectedBot(SyscallShim self)
+        static private void Shim_wcDetectedBot(SyscallShim self)
         {
-            string ret = self._systemAPI.iwDetectedBot();
+            string ret = self._systemAPI.wcDetectedBot();
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
@@ -5154,167 +5154,167 @@ namespace Inworldz.Joke.Glue
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGetAngularVelocity(SyscallShim self)
+        static private void Shim_wcGetAngularVelocity(SyscallShim self)
         {
-            Vector3 ret = self._systemAPI.iwGetAngularVelocity();
+            Vector3 ret = self._systemAPI.wcGetAngularVelocity();
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        // int iwGetAppearanceParam(string who, int which)
-        static private void Shim_iwGetAppearanceParam(SyscallShim self)
-        {
-            int p1 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
-            string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
-
-            int ret = self._systemAPI.iwGetAppearanceParam(p0, p1);
-
-            self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
-        }
-
-        static private void Shim_iwChar2Int(SyscallShim self)
+        // int wcGetAppearanceParam(string who, int which)
+        static private void Shim_wcGetAppearanceParam(SyscallShim self)
         {
             int p1 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwChar2Int(p0, p1);
+            int ret = self._systemAPI.wcGetAppearanceParam(p0, p1);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwInt2Char(SyscallShim self)
+        static private void Shim_wcChar2Int(SyscallShim self)
+        {
+            int p1 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
+            string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
+
+            int ret = self._systemAPI.wcChar2Int(p0, p1);
+
+            self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
+        }
+
+        static private void Shim_wcInt2Char(SyscallShim self)
         {
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwInt2Char(p0);
+            string ret = self._systemAPI.wcInt2Char(p0);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwReplaceString(SyscallShim self)
+        static private void Shim_wcReplaceString(SyscallShim self)
         {
 
             string p2 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwReplaceString(p0, p1, p2);
+            string ret = self._systemAPI.wcReplaceString(p0, p1, p2);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwFormatString(SyscallShim self)
+        static private void Shim_wcFormatString(SyscallShim self)
         {
             LSLList p1 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwFormatString(p0, p1);
+            string ret = self._systemAPI.wcFormatString(p0, p1);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwMatchString(SyscallShim self)
+        static private void Shim_wcMatchString(SyscallShim self)
         {
             int p2 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwMatchString(p0, p1, p2);
+            int ret = self._systemAPI.wcMatchString(p0, p1, p2);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwStringCodec(SyscallShim self)
+        static private void Shim_wcStringCodec(SyscallShim self)
         {
             LSLList p3 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
             int p2 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwStringCodec(p0, p1, p2, p3);
+            string ret = self._systemAPI.wcStringCodec(p0, p1, p2, p3);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwMatchList(SyscallShim self)
+        static private void Shim_wcMatchList(SyscallShim self)
         {
             int p2 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             LSLList p1 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
             LSLList p0 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwMatchList(p0, p1, p2);
+            int ret = self._systemAPI.wcMatchList(p0, p1, p2);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwColorConvert(SyscallShim self)
+        static private void Shim_wcColorConvert(SyscallShim self)
         {
             int p2 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int p1 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             Vector3 p0 = ConvToVector(self._interpreter.ScriptState.Operands.Pop());
 
-            Vector3 ret = self._systemAPI.iwColorConvert(p0, p1, p2);
+            Vector3 ret = self._systemAPI.wcColorConvert(p0, p1, p2);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwNameToColor(SyscallShim self)
+        static private void Shim_wcNameToColor(SyscallShim self)
         {
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            Vector3 ret = self._systemAPI.iwNameToColor(p0);
+            Vector3 ret = self._systemAPI.wcNameToColor(p0);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwVerifyType(SyscallShim self)
+        static private void Shim_wcVerifyType(SyscallShim self)
         {
             int p1 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwVerifyType(p0, p1);
+            int ret = self._systemAPI.wcVerifyType(p0, p1);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGroupInvite(SyscallShim self)
+        static private void Shim_wcGroupInvite(SyscallShim self)
         {
             string p2 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwGroupInvite(p0, p1, p2);
+            int ret = self._systemAPI.wcGroupInvite(p0, p1, p2);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGroupEject(SyscallShim self)
+        static private void Shim_wcGroupEject(SyscallShim self)
         {
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwGroupEject(p0, p1);
+            int ret = self._systemAPI.wcGroupEject(p0, p1);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        // string iwGetAgentData(key id, integer data)
-        static private void Shim_iwGetAgentData(SyscallShim self)
+        // string wcGetAgentData(key id, integer data)
+        static private void Shim_wcGetAgentData(SyscallShim self)
         {
             int data = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             string id = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwGetAgentData(id, data);
+            string ret = self._systemAPI.wcGetAgentData(id, data);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        // integer iwIsPlusUser(key id)
-        static private void Shim_iwIsPlusUser(SyscallShim self)
+        // integer wcIsPlusUser(key id)
+        static private void Shim_wcIsPlusUser(SyscallShim self)
         {
             string id = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwIsPlusUser(id);
+            int ret = self._systemAPI.wcIsPlusUser(id);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
@@ -5326,92 +5326,92 @@ namespace Inworldz.Joke.Glue
             self._systemAPI.llAttachToAvatarTemp(p0);
         }
 
-        // integer iwListIncludesElements(list src, list elements, integer any)
-        static private void Shim_iwListIncludesElements(SyscallShim self)
+        // integer wcListIncludesElements(list src, list elements, integer any)
+        static private void Shim_wcListIncludesElements(SyscallShim self)
         {
             int p2 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             LSLList p1 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
             LSLList p0 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwListIncludesElements(p0, p1, p2);
+            int ret = self._systemAPI.wcListIncludesElements(p0, p1, p2);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        // string iwReverseString(string src);
-        static private void Shim_iwReverseString(SyscallShim self)
+        // string wcReverseString(string src);
+        static private void Shim_wcReverseString(SyscallShim self)
         {
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwReverseString(p0);
+            string ret = self._systemAPI.wcReverseString(p0);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        // list iwReverseList(list src, integer stride)
-        static private void Shim_iwReverseList(SyscallShim self)
+        // list wcReverseList(list src, integer stride)
+        static private void Shim_wcReverseList(SyscallShim self)
         {
             int p1 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             LSLList p0 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
 
-            LSLList ret = self._systemAPI.iwReverseList(p0, p1);
+            LSLList ret = self._systemAPI.wcReverseList(p0, p1);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        // list iwSearchInventory(integer type, string pattern, integer matchtype)
-        static private void Shim_iwSearchInventory(SyscallShim self)
+        // list wcSearchInventory(integer type, string pattern, integer matchtype)
+        static private void Shim_wcSearchInventory(SyscallShim self)
         {
             int p2 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            LSLList ret = self._systemAPI.iwSearchInventory(p0, p1, p2);
+            LSLList ret = self._systemAPI.wcSearchInventory(p0, p1, p2);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        // list iwSearchLinkInventory(integer link, integer type, string pattern, integer matchtype)
-        static private void Shim_iwSearchLinkInventory(SyscallShim self)
+        // list wcSearchLinkInventory(integer link, integer type, string pattern, integer matchtype)
+        static private void Shim_wcSearchLinkInventory(SyscallShim self)
         {
             int p3 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             string p2 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             int p1 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            LSLList ret = self._systemAPI.iwSearchLinkInventory(p0, p1, p2, p3);
+            LSLList ret = self._systemAPI.wcSearchLinkInventory(p0, p1, p2, p3);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        // integer iwIntRand(integer max);
-        static private void Shim_iwIntRand(SyscallShim self)
+        // integer wcIntRand(integer max);
+        static private void Shim_wcIntRand(SyscallShim self)
         {
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwIntRand(p0);
+            int ret = self._systemAPI.wcIntRand(p0);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        // integer iwIntRandRange(integer min, integer max);
-        static private void Shim_iwIntRandRange(SyscallShim self)
+        // integer wcIntRandRange(integer min, integer max);
+        static private void Shim_wcIntRandRange(SyscallShim self)
         {
             int p1 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwIntRandRange(p0, p1);
+            int ret = self._systemAPI.wcIntRandRange(p0, p1);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        // float iwFloatRandRange(float min, float max);
-        static private void Shim_iwFrandRange(SyscallShim self)
+        // float wcFloatRandRange(float min, float max);
+        static private void Shim_wcFrandRange(SyscallShim self)
         {
             float p1 = ConvToFloat(self._interpreter.ScriptState.Operands.Pop());
             float p0 = ConvToFloat(self._interpreter.ScriptState.Operands.Pop());
 
-            float ret = self._systemAPI.iwFrandRange(p0, p1);
+            float ret = self._systemAPI.wcFrandRange(p0, p1);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
@@ -5434,91 +5434,91 @@ namespace Inworldz.Joke.Glue
             });
         }
 
-        // list iwListRemoveElements(list src, list elements, integer count);
-        static private void Shim_iwListRemoveElements(SyscallShim self)
+        // list wcListRemoveElements(list src, list elements, integer count);
+        static private void Shim_wcListRemoveElements(SyscallShim self)
         {
             int p3 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int p2 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             LSLList p1 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
             LSLList p0 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
 
-            LSLList ret = self._systemAPI.iwListRemoveElements(p0, p1, p2, p3);
+            LSLList ret = self._systemAPI.wcListRemoveElements(p0, p1, p2, p3);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        // list iwListRemoveDuplicates(list src, list elements, integer count);
-        static private void Shim_iwListRemoveDuplicates(SyscallShim self)
+        // list wcListRemoveDuplicates(list src, list elements, integer count);
+        static private void Shim_wcListRemoveDuplicates(SyscallShim self)
         {
             LSLList p0 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
 
-            LSLList ret = self._systemAPI.iwListRemoveDuplicates(p0);
+            LSLList ret = self._systemAPI.wcListRemoveDuplicates(p0);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        // iwStartLinkAnimation(integer link, string anim);
-        static private void Shim_iwStartLinkAnimation(SyscallShim self)
+        // wcStartLinkAnimation(integer link, string anim);
+        static private void Shim_wcStartLinkAnimation(SyscallShim self)
         {
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            self._systemAPI.iwStartLinkAnimation(p0, p1);
+            self._systemAPI.wcStartLinkAnimation(p0, p1);
         }
 
-        // iwStopLinkAnimation(integer link, string anim);
-        static private void Shim_iwStopLinkAnimation(SyscallShim self)
+        // wcStopLinkAnimation(integer link, string anim);
+        static private void Shim_wcStopLinkAnimation(SyscallShim self)
         {
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            self._systemAPI.iwStopLinkAnimation(p0, p1);
+            self._systemAPI.wcStopLinkAnimation(p0, p1);
         }
 
-        // integer iwClampInt(integer value, integer min, integer max);
-        static private void Shim_iwClampInt(SyscallShim self)
+        // integer wcClampInt(integer value, integer min, integer max);
+        static private void Shim_wcClampInt(SyscallShim self)
         {
             int p2 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int p1 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwClampInt(p0, p1, p2);
+            int ret = self._systemAPI.wcClampInt(p0, p1, p2);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        // float iwClampFloat(float value, float min, float max);
-        static private void Shim_iwClampFloat(SyscallShim self)
+        // float wcClampFloat(float value, float min, float max);
+        static private void Shim_wcClampFloat(SyscallShim self)
         {
             float p2 = ConvToFloat(self._interpreter.ScriptState.Operands.Pop());
             float p1 = ConvToFloat(self._interpreter.ScriptState.Operands.Pop());
             float p0 = ConvToFloat(self._interpreter.ScriptState.Operands.Pop());
 
-            float ret = self._systemAPI.iwClampFloat(p0, p1, p2);
+            float ret = self._systemAPI.wcClampFloat(p0, p1, p2);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        // list iwSearchLinksByName(string pattern, integer matchType, integer linksOnly);
-        static private void Shim_iwSearchLinksByName(SyscallShim self)
+        // list wcSearchLinksByName(string pattern, integer matchType, integer linksOnly);
+        static private void Shim_wcSearchLinksByName(SyscallShim self)
         {
             int p2 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int p1 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            LSLList ret = self._systemAPI.iwSearchLinksByName(p0, p1, p2);
+            LSLList ret = self._systemAPI.wcSearchLinksByName(p0, p1, p2);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        // list iwSearchLinksByDesc(string pattern, integer matchType, integer linksOnly);
-        static private void Shim_iwSearchLinksByDesc(SyscallShim self)
+        // list wcSearchLinksByDesc(string pattern, integer matchType, integer linksOnly);
+        static private void Shim_wcSearchLinksByDesc(SyscallShim self)
         {
             int p2 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             int p1 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            LSLList ret = self._systemAPI.iwSearchLinksByDesc(p0, p1, p2);
+            LSLList ret = self._systemAPI.wcSearchLinksByDesc(p0, p1, p2);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
@@ -5543,16 +5543,16 @@ namespace Inworldz.Joke.Glue
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwValidateURL(SyscallShim self)
+        static private void Shim_wcValidateURL(SyscallShim self)
         {
             string p0 = ConvToString(self.Interpreter.ScriptState.Operands.Pop());
 
-            int ret = self._systemAPI.iwValidateURL(p0);
+            int ret = self._systemAPI.wcValidateURL(p0);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwRemoteLoadScriptPin(SyscallShim self)
+        static private void Shim_wcRemoteLoadScriptPin(SyscallShim self)
 		{
 			int p4 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 			int p3 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
@@ -5560,12 +5560,12 @@ namespace Inworldz.Joke.Glue
 			string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 			string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-			int ret = self._systemAPI.iwRemoteLoadScriptPin(p0, p1, p2, p3, p4);
+			int ret = self._systemAPI.wcRemoteLoadScriptPin(p0, p1, p2, p3, p4);
 
 			self._interpreter.SafeOperandsPush (ConvToLSLType (ret));
 		}
 
-        static private void Shim_iwDeliverInventory(SyscallShim self)
+        static private void Shim_wcDeliverInventory(SyscallShim self)
         {
             string p2 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
             string p1 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
@@ -5576,11 +5576,11 @@ namespace Inworldz.Joke.Glue
 
             self._asyncCallDelegate(delegate ()
             {
-                self._systemAPI.iwDeliverInventory(p0, p1, p2);
+                self._systemAPI.wcDeliverInventory(p0, p1, p2);
             });
         }
 
-        static private void Shim_iwDeliverInventoryList(SyscallShim self)
+        static private void Shim_wcDeliverInventoryList(SyscallShim self)
         {
             LSLList p3 = ConvToLSLList(self._interpreter.ScriptState.Operands.Pop());
             string p2 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
@@ -5591,7 +5591,7 @@ namespace Inworldz.Joke.Glue
 
             self._asyncCallDelegate(delegate ()
             {
-                self._systemAPI.iwDeliverInventoryList(p0, p1, p2, p3);
+                self._systemAPI.wcDeliverInventoryList(p0, p1, p2, p3);
             });
         }
 
@@ -5633,31 +5633,31 @@ namespace Inworldz.Joke.Glue
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwGiveMoney(SyscallShim self)
+        static private void Shim_wcGiveMoney(SyscallShim self)
         {
             int p1 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
             string p0 = ConvToString(self._interpreter.ScriptState.Operands.Pop());
 
-            string ret = self._systemAPI.iwGiveMoney(p0, p1);
+            string ret = self._systemAPI.wcGiveMoney(p0, p1);
 
             self._interpreter.SafeOperandsPush(ConvToLSLType(ret));
         }
 
-        static private void Shim_iwStandTarget(SyscallShim self)
+        static private void Shim_wcStandTarget(SyscallShim self)
         {
             Quaternion p1 = ConvToQuat(self._interpreter.ScriptState.Operands.Pop());
             Vector3 p0 = ConvToVector(self._interpreter.ScriptState.Operands.Pop());
 
-            self._systemAPI.iwStandTarget(p0, p1);
+            self._systemAPI.wcStandTarget(p0, p1);
         }
 
-        static private void Shim_iwLinkStandTarget(SyscallShim self)
+        static private void Shim_wcLinkStandTarget(SyscallShim self)
         {
             Quaternion p2 = ConvToQuat(self._interpreter.ScriptState.Operands.Pop());
             Vector3 p1 = ConvToVector(self._interpreter.ScriptState.Operands.Pop());
             int p0 = ConvToInt(self._interpreter.ScriptState.Operands.Pop());
 
-            self._systemAPI.iwLinkStandTarget(p0, p1, p2);
+            self._systemAPI.wcLinkStandTarget(p0, p1, p2);
         }
 
 	    static private void Shim_llGetAnimationOverride(SyscallShim self)

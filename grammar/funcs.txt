@@ -361,67 +361,67 @@ string llGetUsername(key id)
 key llRequestUsername(key id)
 string llGetDisplayName(key id)
 key llRequestDisplayName(key id)
-iwMakeNotecard(string name, list data)
-key iwAvatarName2Key(string firstName, string lastName)
+wcMakeNotecard(string name, list data)
+key wcAvatarName2Key(string firstName, string lastName)
 string llGetParcelMusicURL()
-iwLinkTargetOmega(integer linknumber, vector axis, float spinrate, float gain);
+wcLinkTargetOmega(integer linknumber, vector axis, float spinrate, float gain);
 integer llSetRegionPos(vector v)
-integer iwGetLinkInventoryNumber(integer linknumber, integer type)
-integer iwGetLinkInventoryType(integer linknumber, string name)
-integer iwGetLinkInventoryPermMask(integer linknumber, string item, integer mask)
-string iwGetLinkInventoryName(integer linknumber, integer type, integer number)
-key iwGetLinkInventoryKey(integer linknumber, string name)
-key iwGetLinkInventoryCreator(integer linknumber, string item)
-string iwSHA256String(string src)
-iwTeleportAgent(key agent, string region, vector pos, vector lookat)
+integer wcGetLinkInventoryNumber(integer linknumber, integer type)
+integer wcGetLinkInventoryType(integer linknumber, string name)
+integer wcGetLinkInventoryPermMask(integer linknumber, string item, integer mask)
+string wcGetLinkInventoryName(integer linknumber, integer type, integer number)
+key wcGetLinkInventoryKey(integer linknumber, string name)
+key wcGetLinkInventoryCreator(integer linknumber, string item)
+string wcSHA256String(string src)
+wcTeleportAgent(key agent, string region, vector pos, vector lookat)
 key llAvatarOnLinkSitTarget(integer linknumber)
-key iwGetLastOwner()
-iwRemoveLinkInventory(integer linknumber, string item)
-iwGiveLinkInventory(integer linknumber, key destination, string inventory)
-iwGiveLinkInventoryList(integer linknumber, key target, string folder, list inventory)
-key iwGetLinkNumberOfNotecardLines(integer linknumber, string name)
-key iwGetLinkNotecardLine(integer linknumber, string name, integer line)
-key iwGetNotecardSegment(string name, integer line, integer startOffset, integer maxLength)
-key iwGetLinkNotecardSegment(integer linknumber, string name, integer line, integer startOffset, integer maxLength)
-integer iwActiveGroup(key agent, key group)
-key iwAvatarOnLink(integer linknumber)
+key wcGetLastOwner()
+wcRemoveLinkInventory(integer linknumber, string item)
+wcGiveLinkInventory(integer linknumber, key destination, string inventory)
+wcGiveLinkInventoryList(integer linknumber, key target, string folder, list inventory)
+key wcGetLinkNumberOfNotecardLines(integer linknumber, string name)
+key wcGetLinkNotecardLine(integer linknumber, string name, integer line)
+key wcGetNotecardSegment(string name, integer line, integer startOffset, integer maxLength)
+key wcGetLinkNotecardSegment(integer linknumber, string name, integer line, integer startOffset, integer maxLength)
+integer wcActiveGroup(key agent, key group)
+key wcAvatarOnLink(integer linknumber)
 llRegionSayTo(string destId, integer channel, string msg)
 integer llGetUsedMemory()
-string iwGetLinkInventoryDesc(integer linknumber, string name)
+string wcGetLinkInventoryDesc(integer linknumber, string name)
 key llGenerateKey()
-key iwGetLinkInventoryLastOwner(integer linknumber, string name)
-key iwRezObject(string inventory, vector pos, vector vel, rotation rot, integer param)
-key iwRezAtRoot(string inventory, vector pos, vector vel, rotation rot, integer param)
-key iwRezPrim(list primParams, list particleSystem, list inventoryList, vector pos, vector vel, rotation rot, integer param)
+key wcGetLinkInventoryLastOwner(integer linknumber, string name)
+key wcRezObject(string inventory, vector pos, vector vel, rotation rot, integer param)
+key wcRezAtRoot(string inventory, vector pos, vector vel, rotation rot, integer param)
+key wcRezPrim(list primParams, list particleSystem, list inventoryList, vector pos, vector vel, rotation rot, integer param)
 list llGetAgentList(integer scope, list options)
-list iwGetAgentList(integer scope, vector minPos, vector maxPos, list params)
-list iwGetWorldBoundingBox(key object)
+list wcGetAgentList(integer scope, vector minPos, vector maxPos, list params)
+list wcGetWorldBoundingBox(key object)
 integer llSetMemoryLimit(integer limit)
 integer llGetMemoryLimit()
 integer llManageEstateAccess(integer action, key avatar)
-integer iwSubStringIndex(string source, string pattern, integer offset, integer isCaseSensitive)
+integer wcSubStringIndex(string source, string pattern, integer offset, integer isCaseSensitive)
 llLinkSitTarget(integer link, vector offset, rotation rot)
 float llGetMassMKS()
-float iwGetObjectMassMKS(key id)
+float wcGetObjectMassMKS(key id)
 llSetLinkCamera(integer linknumber, vector eyeOffset, vector cameraAt)
-iwSetGround(integer x1, integer y1, integer x2, integer y2, float height)
+wcSetGround(integer x1, integer y1, integer x2, integer y2, float height)
 llSetContentType( key request_id, integer content_type )
 string llJsonGetValue( string json, list specifiers )
 string llJsonValueType( string json, list specifiers )
 string llJsonSetValue( string json, list specifiers, string value )
 string llList2Json( string type, list values )
 list llJson2List( string src )
-iwSetWind(integer type, vector offset, vector speed)
-integer iwHasParcelPowers(integer groupPower)
-vector iwGroundSurfaceNormal(vector offset)
-key iwRequestAnimationData(string name)
+wcSetWind(integer type, vector offset, vector speed)
+integer wcHasParcelPowers(integer groupPower)
+vector wcGroundSurfaceNormal(vector offset)
+key wcRequestAnimationData(string name)
 list llCastRay(vector start, vector end, list options)
 llSetKeyframedMotion(list keyframes, list options)
-vector iwWind(vector offset)
+vector wcWind(vector offset)
 list llGetPhysicsMaterial()
-integer iwGetLocalTime()
-integer iwGetLocalTimeOffset()
-string iwFormatTime(integer unixtime, integer isUTC, string format)
+integer wcGetLocalTime()
+integer wcGetLocalTimeOffset()
+string wcFormatTime(integer unixtime, integer isUTC, string format)
 key botCreateBot(string firstName, string lastName, string outfitName, vector startPosition, integer options)
 botAddTag(key botID, string tag)
 botRemoveTag(key botID, string tag)
@@ -460,7 +460,7 @@ botGiveInventory(key botID, key destination, string inventory)
 botSensor(key botID, string name, key id, integer type, float range, float arc)
 botSensorRepeat(key botID, string name, key id, integer type, float range, float arc, float rate)
 botSensorRemove()
-key iwDetectedBot()
+key wcDetectedBot()
 integer botListen(key botID, integer channel, string name, key id, string msg)
 botRegisterForCollisionEvents(key botID)
 botDeregisterFromCollisionEvents(key botID)
@@ -473,55 +473,55 @@ botWanderWithin(key botID, vector origin, float xDistance, float yDistance, list
 botMessageLinked(key botID, integer num, string message, key id)
 botSetProfileParams(key botID, list profileParams)
 list botGetProfileParams(key botID, list profileParams)
-integer iwCheckRezError(vector position, integer isTemp, integer landImpact)
-vector iwGetAngularVelocity()
-integer iwGetAppearanceParam(key who, integer which)
-list iwParseString2List(string str, list separators, list spacers, list args)
-integer iwChar2Int(string str, integer index)
-string iwInt2Char(integer num)
-string iwReplaceString(string str, string pattern, string replace)
-string iwFormatString(string str, list values)
-integer iwMatchString(string str, string pattern, integer matchType)
-string iwStringCodec(string str, string codec, integer operation, list extraParams);
-list iwMatchList(list list1, list list2, int matchType);
-vector iwColorConvert(vector input, int color1, int color2);
-vector iwNameToColor(string name);
-integer iwVerifyType(string str, integer type);
-iwGroupInvite(key user, key group, string role);
-iwGroupEject(key user, key group);
-string iwGetAgentData(key id, integer data);
-integer iwIsPlusUser(key id);
+integer wcCheckRezError(vector position, integer isTemp, integer landImpact)
+vector wcGetAngularVelocity()
+integer wcGetAppearanceParam(key who, integer which)
+list wcParseString2List(string str, list separators, list spacers, list args)
+integer wcChar2Int(string str, integer index)
+string wcInt2Char(integer num)
+string wcReplaceString(string str, string pattern, string replace)
+string wcFormatString(string str, list values)
+integer wcMatchString(string str, string pattern, integer matchType)
+string wcStringCodec(string str, string codec, integer operation, list extraParams);
+list wcMatchList(list list1, list list2, int matchType);
+vector wcColorConvert(vector input, int color1, int color2);
+vector wcNameToColor(string name);
+integer wcVerifyType(string str, integer type);
+wcGroupInvite(key user, key group, string role);
+wcGroupEject(key user, key group);
+string wcGetAgentData(key id, integer data);
+integer wcIsPlusUser(key id);
 llAttachToAvatarTemp(integer attachPoint);
-integer iwListIncludesElements(list src, list elements, integer any);
-string iwReverseString(string src);
-list iwReverseList(list src, integer stride);
-list iwSearchInventory(integer type, string pattern, integer matchType);
-list iwSearchLinkInventory(integer link, integer type, string pattern, integer matchType);
-integer iwIntRand(integer max);
-integer iwIntRange(integer min, integer max);
-float iwFrandRange(float min, float max);
+integer wcListIncludesElements(list src, list elements, integer any);
+string wcReverseString(string src);
+list wcReverseList(list src, integer stride);
+list wcSearchInventory(integer type, string pattern, integer matchType);
+list wcSearchLinkInventory(integer link, integer type, string pattern, integer matchType);
+integer wcIntRand(integer max);
+integer wcIntRange(integer min, integer max);
+float wcFrandRange(float min, float max);
 list botSearchBotOutfits(string pattern, integer matchType, integer start, integer end);
-list iwListRemoveElements(list src, list elements, integer count, integer mode);
-list iwListRemoveDuplicates(list src);
-iwStartLinkAnimation(integer link, string anim);
-iwStopLinkAnimation(integer link, string anim);
-integer iwClampInt(integer value, integer min, integer max);
-float iwClampFloat(float value, float min, float max);
-list iwSearchLinksByName(string pattern, integer matchType, integer linksOnly);
-list iwSearchLinksByDesc(string pattern, integer matchType, integer linksOnly);
+list wcListRemoveElements(list src, list elements, integer count, integer mode);
+list wcListRemoveDuplicates(list src);
+wcStartLinkAnimation(integer link, string anim);
+wcStopLinkAnimation(integer link, string anim);
+integer wcClampInt(integer value, integer min, integer max);
+float wcClampFloat(float value, float min, float max);
+list wcSearchLinksByName(string pattern, integer matchType, integer linksOnly);
+list wcSearchLinksByDesc(string pattern, integer matchType, integer linksOnly);
 integer botHasTag(key botID, string tag);
 list botGetBotTags(key botID);
-integer iwRemoteLoadScriptPin(key target, string name, integer pin, integer running, integer start_param);
-integer iwValidateURL(string url);
-integer iwDeliverInventory(integer linknumber, key destination, string inventory)
-integer iwDeliverInventoryList(integer linknumber, key target, string folder, list inventory)
+integer wcRemoteLoadScriptPin(key target, string name, integer pin, integer running, integer start_param);
+integer wcValidateURL(string url);
+integer wcDeliverInventory(integer linknumber, key destination, string inventory)
+integer wcDeliverInventoryList(integer linknumber, key target, string folder, list inventory)
 list llGetAttachedList(key avatar)
 integer llReturnObjectsByOwner(key owner, integer scope)
 integer llReturnObjectsByID(list objects)
 key llTransferLindenDollars(key destination, integer amount)
-string iwGiveMoney(key destination, integer amount)
-iwStandTarget(vector offset, rotation rot)
-iwLinkStandTarget(integer link, vector offset, rotation rot)
+string wcGiveMoney(key destination, integer amount)
+wcStandTarget(vector offset, rotation rot)
+wcLinkStandTarget(integer link, vector offset, rotation rot)
 string llGetAnimationOverride(string anim_state)
 llSetAnimationOverride(string anim_state, string anim)
 llResetAnimationOverride(string anim_state)
