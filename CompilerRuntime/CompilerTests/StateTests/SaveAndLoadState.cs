@@ -7,11 +7,11 @@ using System.IO;
 using NUnit.Framework;
 using Antlr.Runtime;
 
-using MCompilerFrontend = InWorldz.Phlox.Glue.CompilerFrontend;
-using InWorldz.Phlox.VM;
-using InWorldz.Phlox.Types;
-using InWorldz.Phlox.Serialization;
-using InWorldz.Phlox.Util;
+using MCompilerFrontend = Inworldz.Joke.Glue.CompilerFrontend;
+using Inworldz.Joke.VM;
+using Inworldz.Joke.Types;
+using Inworldz.Joke.Serialization;
+using Inworldz.Joke.Util;
 
 using OpenMetaverse;
 

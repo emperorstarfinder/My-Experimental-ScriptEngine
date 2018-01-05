@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using InWorldz.Phlox.Compiler;
-using InWorldz.Phlox.Types;
+using Inworldz.Joke.Compiler;
+using Inworldz.Joke.Types;
 using Antlr.Runtime;
 using Antlr.Runtime.Tree;
 using Antlr3.ST;
 using System.IO;
-using InWorldz.Phlox.Compiler.BranchAnalyze;
+using Inworldz.Joke.Compiler.BranchAnalyze;
 
 namespace CompilerRunner
 {

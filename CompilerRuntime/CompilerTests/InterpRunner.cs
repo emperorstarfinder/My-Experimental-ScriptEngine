@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using InWorldz.Phlox.VM;
+using Inworldz.Joke.VM;
 namespace CompilerTests
 {
     class InterpRunner

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using InWorldz.Phlox.Compiler;
-using InWorldz.Phlox.Types;
+using Inworldz.Joke.Compiler;
+using Inworldz.Joke.Types;
 using Antlr.Runtime;
 using Antlr.Runtime.Tree;
-using InWorldz.Phlox.Compiler.BranchAnalyze;
+using Inworldz.Joke.Compiler.BranchAnalyze;
 
 namespace CompilerTests
 {
@@ -41,9 +41,9 @@ namespace CompilerTests
             }
         }
 
-        public InWorldz.Phlox.Glue.CompilerFrontend Compile(ICharStream input)
+        public Inworldz.Joke.Glue.CompilerFrontend Compile(ICharStream input)
         {
-            InWorldz.Phlox.Glue.CompilerFrontend frontEnd = new InWorldz.Phlox.Glue.CompilerFrontend(_listener, "../../../../grammar", true);
+            Inworldz.Joke.Glue.CompilerFrontend frontEnd = new Inworldz.Joke.Glue.CompilerFrontend(_listener, "../../../../grammar", true);
             frontEnd.OutputASTGraph = true;
 
             frontEnd.Compile(input);

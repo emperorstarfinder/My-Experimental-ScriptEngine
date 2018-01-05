@@ -5,7 +5,7 @@ options {
 }
 
 
-@namespace { InWorldz.Phlox.Tools } 
+@namespace { Inworldz.Joke.Tools } 
 
 public list	:	funcDef+
 	;

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using InWorldz.Phlox.ByteCompiler;
-using InWorldz.Phlox.Types;
-using InWorldz.Phlox.VM;
+using Inworldz.Joke.ByteCompiler;
+using Inworldz.Joke.Types;
+using Inworldz.Joke.VM;
 
 using Antlr.Runtime;
 using Antlr.Runtime.Tree;

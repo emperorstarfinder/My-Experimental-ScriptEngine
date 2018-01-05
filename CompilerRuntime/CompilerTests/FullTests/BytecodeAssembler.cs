@@ -6,8 +6,8 @@ using System.Text;
 using NUnit.Framework;
 using Antlr.Runtime;
 
-using MCompilerFrontend = InWorldz.Phlox.Glue.CompilerFrontend;
-using InWorldz.Phlox.VM;
+using MCompilerFrontend = Inworldz.Joke.Glue.CompilerFrontend;
+using Inworldz.Joke.VM;
 using System.IO;
 
 namespace CompilerTests.FullTests

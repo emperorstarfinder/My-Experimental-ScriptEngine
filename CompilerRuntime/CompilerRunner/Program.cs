@@ -6,10 +6,10 @@ using System.Text;
 using Antlr.Runtime;
 using Antlr.Runtime.Tree;
 
-using InWorldz.Phlox.Compiler;
-using InWorldz.Phlox.VM;
-using InWorldz.Phlox.Types;
-using InWorldz.Phlox.Serialization;
+using Inworldz.Joke.Compiler;
+using Inworldz.Joke.VM;
+using Inworldz.Joke.Types;
+using Inworldz.Joke.Serialization;
 using System.IO;
 
 namespace CompilerRunner

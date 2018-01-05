@@ -8,7 +8,7 @@ options {
 }
 
 @header {
-	using InWorldz.Phlox.Compiler.BranchAnalyze;
+	using Inworldz.Joke.Compiler.BranchAnalyze;
 }
 
 @members {
@@ -25,7 +25,7 @@ options {
 }
 
 
-@namespace { InWorldz.Phlox.Compiler } 
+@namespace { Inworldz.Joke.Compiler } 
 
 topdown
 	:	methodDef

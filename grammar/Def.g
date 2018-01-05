@@ -25,7 +25,7 @@ options {
 }
 
 
-@namespace { InWorldz.Phlox.Compiler } 
+@namespace { Inworldz.Joke.Compiler } 
 
 topdown:
 		enterFuncBlock	

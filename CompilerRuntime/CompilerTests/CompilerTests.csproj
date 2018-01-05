@@ -112,9 +112,9 @@
     <Compile Include="TestListener.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\InWorldz.Phlox\InWorldz.Phlox.csproj">
+    <ProjectReference Include="..\Inworldz.Joke\Inworldz.Joke.csproj">
       <Project>{56C3EF44-AB6C-4719-B160-2FFC163E4439}</Project>
-      <Name>InWorldz.Phlox</Name>
+      <Name>Inworldz.Joke</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

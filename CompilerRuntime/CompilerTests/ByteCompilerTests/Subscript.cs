@@ -5,7 +5,7 @@ using System.Text;
 
 using NUnit.Framework;
 using Antlr.Runtime;
-using InWorldz.Phlox.VM;
+using Inworldz.Joke.VM;
 
 namespace CompilerTests.ByteCompilerTests
 {
